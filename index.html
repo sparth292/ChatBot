@@ -1,0 +1,39 @@
+
+<!--first run this on your terminal:node server.js -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/iconChat.png">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <title>NotGPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <p class="logo-container">
+            <img src="images/iconChat.png" alt="Chat Logo" class="logo"> 
+            <span class="bot-name">NotGPT</span>
+        </p>
+        <br>
+        <p class="description-box">
+            NotGPT is a smart and fun chatbot that delivers engaging conversations while making it clear—it’s not GPT! Designed for smooth interactions, quick responses, and a unique personality, NotGPT brings a fresh twist to AI-powered chats. Whether you're looking for answers, entertainment, or just a good conversation, NotGPT has got you covered!
+        </p>
+    </div>
+
+    <!-- Chat Container -->
+    <div id="chatContainer">
+        <div id="chatMessages"></div>
+        <div id="chatInput">
+            <input type="text" id="messageInput" placeholder="Type a message...">
+            <button id="sendMessage">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
